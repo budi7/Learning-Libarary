@@ -1,6 +1,8 @@
 # I. Create Repo From Existing Project
 **Case :**  
 I allready create a real working project, and i need to upload to Source Control Managamenet Platform
+**Update Version:**  
+version 1 - 15 Nov 2018
 
 **Environment**  
 - SCM : Git  
@@ -29,3 +31,16 @@ Go to visual studio and go to **source control** or press ctrl+shift+g. Write co
 7. Push  
 **What is push?** *Pushing refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them.* - according to Github official.  
 So go to triple dots beside the tick button on visual studio, click and the dropdown menu wil popped up. Choose push. Wait, enter your github username and password if needed, and you're done. Headback to your repo on github and you can see your project would be there.
+
+**Using Terminal ?**  
+Do step 1 - 5 as described previously and then follow this step by step guide. 
+1. Git Add  
+Type **git add "your working directory/file"**. to check whats on your directory run **git commit -m "first commit"** and you will get an error of untracked files. Add that file using **git add**.  
+For example :  **git add Git**
+
+2. Commit
+Type **git commit -m "your commit title"**  
+For example **git commit -m "first commit"**
+
+3. Push
+Type **git push -u origin master**. if you promtpted to enter your username and password, just type it right and wait until the push done. Headback to your repo on github and you can see your project would be there.
