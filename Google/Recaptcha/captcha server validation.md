@@ -9,6 +9,9 @@ version 1 - 15 Nov 2018
 - Backend : laravel
 - Programming Tool : VS code
 
+**Docs**  
+https://developers.google.com/recaptcha/intro
+
 **Step By Step**  
 1. Config recaptcha key & secret inside **.env** file
   
