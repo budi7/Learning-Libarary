@@ -28,3 +28,8 @@ Adding your SSH key to the ssh-agent
    
    // check: list the added keys:
    ssh-add -l
+
+
+CHange repo : to ssh instead of account
+
+  remote set-url origin git@github.com:USER/REPO.git
