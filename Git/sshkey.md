@@ -21,15 +21,19 @@ Adding your SSH key to the ssh-agent
    eval \$(ssh-agent -s)
    
    // delete all key 
+   
    ssh-add -D
    
    // add the generated key to the agent
+   
    ssh-add ~/.ssh/id_rsa
    
    // check: list the added keys:
+   
    ssh-add -l
+
 
 
 CHange repo : to ssh instead of account
 
-  remote set-url origin git@github.com:USER/REPO.git
+  git remote set-url origin git@github.com:USER/REPO.git
